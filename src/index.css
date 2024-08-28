@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Avenue Mono";
+  src: url("./assets/fonts/Avenue Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Regular";
+  src: url("./assets/fonts/HelveticaNowDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.robot {
+  font-family: "Avenue Mono", sans-serif;
+}
+
+.second {
+  font-family: "HelveticaNowDisplay-Regular", sans-serif;
+}
+
+.addGradient {
+  background: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
